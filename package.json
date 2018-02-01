@@ -1,5 +1,5 @@
 {
-  "name": "log-driver",
+  "name": "@ofrobots/log-driver",
   "description": "log-driver is a simple logging framework for logging to stdout",
   "keywords": [
     "logging",
@@ -8,18 +8,15 @@
   ],
   "version": "1.2.6",
   "bugs": {
-    "url": "https://github.com/cainus/logdriver/issues"
+    "url": "https://github.com/ofrobots/logdriver/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cainus/logdriver.git"
+    "url": "git://github.com/ofrobots/logdriver.git"
   },
   "scripts": {
     "test": "make test-codecov"
   },
-  "maintainers": [
-    "Gregg Caines <gregg@caines.ca> (http://caines.ca)"
-  ],
   "dependencies": {
     "codecov.io": "0.0.1"
   },
@@ -34,7 +31,7 @@
   "engines": {
     "node": ">=0.8.6"
   },
-  "homepage": "https://github.com/cainus/logdriver",
+  "homepage": "https://github.com/ofrobots/logdriver",
   "main": "index.js",
   "directories": {
     "test": "test"
